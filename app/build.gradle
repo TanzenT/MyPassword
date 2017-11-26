@@ -1,0 +1,54 @@
+/*
+ * Create by 윤규도 on 2017. 11. 26.
+ * Copyright (C) 2017. 윤규도. All rights reserved.
+ */
+
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        signing_config {
+            keyAlias 'smileboy02'
+            keyPassword 'smileboy02'
+            storeFile file('D:/AndroidStudio/smileapps.jks')
+            storePassword 'smileboy02'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion '25.0.2'
+    defaultConfig {
+        applicationId "com.smileapps.mypassword"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 7
+        versionName "1.0.7_release"
+        signingConfig signingConfigs.signing_config
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    productFlavors {
+    }
+}
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/"}
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7'
+    //TedPermission(마시멜로 6.0 이상 권한 관리자)
+    compile 'gun0912.ted:tedpermission:1.0.3'
+    compile 'com.codemybrainsout.rating:ratingdialog:1.0.7'
+    //compile 'com.orhanobut:rootchecker'
+}

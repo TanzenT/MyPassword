@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:autoMirrored="true">
+    <item android:state_enabled="false"
+          android:drawable="@drawable/spinner_disabled_holo_light" />
+    <item android:state_pressed="true"
+          android:drawable="@drawable/spinner_pressed_holo_light" />
+    <item android:state_pressed="false" android:state_focused="true"
+          android:drawable="@drawable/spinner_focused_holo_light" />
+    <item android:drawable="@drawable/spinner_default_holo_light" />
+</selector>

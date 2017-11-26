@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<resources>
+
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <string name="tb_munion_tip_download_prefix">다운로드:</string>
+
+</resources>

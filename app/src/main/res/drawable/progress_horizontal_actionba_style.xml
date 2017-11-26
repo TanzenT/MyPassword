@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background"
+          android:drawable="@drawable/progress_bg_actionba_style" />
+
+    <item android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%"
+               android:drawable="@drawable/progress_secondary_actionba_style" />
+    </item>
+
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%"
+               android:drawable="@drawable/progress_primary_actionba_style" />
+    </item>
+
+</layer-list>

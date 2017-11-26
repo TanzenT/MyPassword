@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:shareInterpolator="true" >
+
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1.0" />
+
+</set>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/common_card_middle_background_highlighted" android:state_pressed="true"/>
+    <item android:drawable="@drawable/common_card_middle_background" android:state_pressed="false"/>
+    <item android:drawable="@drawable/common_card_middle_background"/>
+
+</selector>

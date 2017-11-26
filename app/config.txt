@@ -1,0 +1,315 @@
+-injars 'D:\AndroidStudio\MyPassword\app\libs\multiwindow-v1.3.2.jar'(**.class)
+-injars 'D:\AndroidStudio\MyPassword\app\libs\sdk-v1.0.0.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\f1cf33bfd30236927368b82c00e99f0d42e74312\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\62b9a6e6738df5c6dcd6fd1878bf0317114f64c8\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\58f94a1a4d01153339a5851f8e198baa2e42affc\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\ef7c83748a06b4344ffc966c767c7e8711f95ca6\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\c08998149dc1f1279c0aea9fecba5683503d5ce7\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.7\69d90fd7fb70e54746e26c10454c220e40a775ce\otto-1.3.7.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\00f1ae1864da91c39fb614e18d36a5e35f9d9b40\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\5d0b2e4e24aef663cae3ecdafa19cc51ee543df9\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\eca439e7fe0d8aff6872d1704f0c35c0a98462aa\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\d143cd195141e8b5dc360509c3772d8db8b9b640\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\bbef222c0042eef1bea0b71f752fba55562a3886\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\HappyVirus\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar'(**.class)
+-injars 'C:\Users\HappyVirus\.android\build-cache\f46277f0237bce5434134886bcf6694a4cd04099\output\jars\classes.jar'(**.class)
+-injars 'D:\AndroidStudio\MyPassword\app\build\intermediates\classes\release'(**.class)
+-outjars 'D:\AndroidStudio\MyPassword\app\build\intermediates\transforms\proguard\release\jars\3\1f\main.jar'
+
+-libraryjars 'C:\Users\HappyVirus\AppData\Local\Android\Sdk\platforms\android-24\android.jar'
+-libraryjars 'C:\Users\HappyVirus\AppData\Local\Android\Sdk\platforms\android-24\optional\org.apache.http.legacy.jar'
+
+-forceprocessing
+-printusage 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\usage.txt'
+-dontoptimize
+-printmapping 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\mapping.txt'
+-dontusemixedcaseclassnames
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,SourceFile,LineNumberTable,*Annotation*,*Annotation*
+-renamesourcefileattribute SourceFile
+-dontpreverify
+-verbose
+-dontnote com.android.vending.licensing.ILicensingService,com.google.vending.licensing.ILicensingService,com.google.android.vending.licensing.ILicensingService,android.support.**
+-dontwarn android.support.**
+-ignorewarnings
+-printconfiguration 'D:\AndroidStudio\MyPassword\app\config.txt'
+-dump 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\dump.txt'
+-printseeds 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\seeds.txt'
+
+
+-keep public class com.google.vending.licensing.ILicensingService
+
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep public class com.google.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembers,allowshrinking class * {
+    native <methods>;
+}
+
+# Keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+    void set*(***);
+    *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick.
+-keepclassmembers class * extends android.app.Activity {
+    public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum  * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * extends android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# Preserve annotated Javascript interface methods.
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface
+    <methods>;
+}
+
+# Understand the @Keep support annotation.
+-keep class android.support.annotation.Keep
+
+-keep @android.support.annotation.Keep class * {
+    <fields>;
+    <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <methods>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <fields>;
+}
+
+-keepclasseswithmembers class * {
+    @android.support.annotation.Keep
+    <init>(...);
+}
+
+-keepclassmembers class ** {
+    @com.squareup.otto.Subscribe
+    public <fields>;
+    @com.squareup.otto.Produce
+    public <fields>;
+    @com.squareup.otto.Subscribe
+    public <methods>;
+    @com.squareup.otto.Produce
+    public <methods>;
+}
+
+# Copyright (C) 2016 The Android Open Source Project
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#      http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# keep setters in VectorDrawables so that animations can still work.
+-keepclassmembers class android.support.graphics.drawable.VectorDrawableCompat$* {
+    void set*(***);
+    *** get*();
+}
+
+# view res/layout/activity_main.xml #generated:6
+-keep class android.support.v4.widget.DrawerLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_alert_dialog_material.xml #generated:41
+-keep class android.support.v4.widget.NestedScrollView {
+    <init>(...);
+}
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+-keep class android.support.v4.widget.Space {
+    <init>(...);
+}
+
+# view res/layout/abc_select_dialog_material.xml #generated:23
+-keep class android.support.v7.app.AlertController$RecycleListView {
+    <init>(...);
+}
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView {
+    <init>(...);
+}
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView {
+    <init>(...);
+}
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView {
+    <init>(...);
+}
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer {
+    <init>(...);
+}
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView {
+    <init>(...);
+}
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView {
+    <init>(...);
+}
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_alert_dialog_material.xml #generated:18
+-keep class android.support.v7.widget.AlertDialogLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+-keep class android.support.v7.widget.ButtonBarLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_alert_dialog_title_material.xml #generated:45
+-keep class android.support.v7.widget.DialogTitle {
+    <init>(...);
+}
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout {
+    <init>(...);
+}
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete {
+    <init>(...);
+}
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+-keep class android.support.v7.widget.Toolbar {
+    <init>(...);
+}
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:150
+-keep class com.gun0912.tedpermission.TedPermissionActivity {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:122
+-keep class com.smileapps.mypassword.activity.AboutActivity {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:95
+-keep class com.smileapps.mypassword.activity.EditPasswordActivity {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:68
+-keep class com.smileapps.mypassword.activity.EntryActivity {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:54
+-keep class com.smileapps.mypassword.activity.MainActivity {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:109
+-keep class com.smileapps.mypassword.activity.SetLockpatternActivity {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:28
+-keep class com.smileapps.mypassword.app.MyApplication {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:89
+-keep class com.smileapps.mypassword.service.MainService {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:140
+-keep class com.smileapps.mypassword.service.noti.BootReceiver {
+    <init>(...);
+}
+
+# view AndroidManifest.xml #generated:135
+-keep class com.smileapps.mypassword.service.noti.QuickAddService {
+    <init>(...);
+}
+
+# view res/layout/activity_entry.xml #generated:60
+# view res/layout/activity_set_lockpattern.xml #generated:25
+-keep class com.smileapps.mypassword.view.LockPatternView {
+    <init>(...);
+}
+
+# view res/layout/fragment_password_list.xml #generated:14
+-keep class com.twotoasters.jazzylistview.JazzyListView {
+    <init>(...);
+}
+
+# onClick res/layout/activity_about.xml #generated:82
+-keepclassmembers class * {
+    *** onBlogClick(...);
+}
+
+# onClick res/layout/activity_about.xml #generated:114
+-keepclassmembers class * {
+    *** onFeedbackClick(...);
+}

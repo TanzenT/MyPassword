@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<resources>
+    <string name="action_about_us">정보</string>
+    <string name="about_author">FAQ</string>
+    <string name="about_source">개발자 사이트</string>
+    <string name="about_source_open_failed">웹브라우저가 열리지 않았습니다.</string>
+    <string name="about_author_mail">smileapps02@gmail.com</string>
+    <string name="about_version">버전 정보</string>
+</resources>

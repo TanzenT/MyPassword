@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<resources>
+
+    <item name="msg_import_search_delay_500" type="id"/>
+    <item name="msg_import" type="id"/>
+
+</resources>

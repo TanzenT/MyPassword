@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create by 윤규도 on 2017. 11. 26.
+  ~ Copyright (C) 2017. 윤규도. All rights reserved.
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 애니메이션 효과 -->
+    <string-array name="jazzy_effects">
+        <item>기본</item>
+        <item>가운데에서 생겨나기</item>
+        <item>카드</item>
+        <item>오른쪽으로 돌기</item>
+        <item>밀며들어오기</item>
+        <item>2D 플립</item>
+        <item>3D 플립</item>
+        <item>3D 플립 반대로</item>
+        <item>스핀</item>
+        <item>팬</item>
+        <item>틸트</item>
+        <item>지퍼</item>
+        <item>서서히 생겨나기</item>
+        <item>트위스트</item>
+        <item>슬라이드</item>
+    </string-array>
+
+</resources>
