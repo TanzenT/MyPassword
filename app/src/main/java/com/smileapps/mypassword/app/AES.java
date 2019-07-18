@@ -1,8 +1,3 @@
-/*
- * Create by 윤규도 on 2017. 11. 26.
- * Copyright (C) 2017. 윤규도. All rights reserved.
- */
-
 package com.smileapps.mypassword.app;
 
 import android.annotation.SuppressLint;

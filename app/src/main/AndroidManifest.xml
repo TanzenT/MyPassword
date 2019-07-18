@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Create by 윤규도 on 2017. 11. 26.
-  ~ Copyright (C) 2017. 윤규도. All rights reserved.
-  -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.smileapps.mypassword">
@@ -126,22 +122,6 @@
                 android:minHeight="500dp"
                 android:minWidth="500dp" />
         </activity>
-
-        <!-- 피드백 액티비티(구현중) -->
-        <service
-            android:name=".service.noti.QuickAddService"
-            android:enabled="true"
-            android:exported="true" />
-        <receiver
-            android:name=".service.noti.BootReceiver"
-            android:enabled="true"
-            android:exported="false"
-            android:label="BOOTReceiver">
-
-            <intent-filter >
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>

@@ -1,28 +1,28 @@
--injars 'D:\AndroidStudio\MyPassword\app\libs\multiwindow-v1.3.2.jar'(**.class)
--injars 'D:\AndroidStudio\MyPassword\app\libs\sdk-v1.0.0.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\f1cf33bfd30236927368b82c00e99f0d42e74312\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\62b9a6e6738df5c6dcd6fd1878bf0317114f64c8\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\58f94a1a4d01153339a5851f8e198baa2e42affc\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\ef7c83748a06b4344ffc966c767c7e8711f95ca6\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\c08998149dc1f1279c0aea9fecba5683503d5ce7\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.7\69d90fd7fb70e54746e26c10454c220e40a775ce\otto-1.3.7.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\00f1ae1864da91c39fb614e18d36a5e35f9d9b40\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\5d0b2e4e24aef663cae3ecdafa19cc51ee543df9\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\eca439e7fe0d8aff6872d1704f0c35c0a98462aa\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\d143cd195141e8b5dc360509c3772d8db8b9b640\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\bbef222c0042eef1bea0b71f752fba55562a3886\output\jars\classes.jar'(**.class)
--injars 'C:\Users\HappyVirus\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar'(**.class)
--injars 'C:\Users\HappyVirus\.android\build-cache\f46277f0237bce5434134886bcf6694a4cd04099\output\jars\classes.jar'(**.class)
--injars 'D:\AndroidStudio\MyPassword\app\build\intermediates\classes\release'(**.class)
--outjars 'D:\AndroidStudio\MyPassword\app\build\intermediates\transforms\proguard\release\jars\3\1f\main.jar'
+-injars 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\libs\multiwindow-v1.3.2.jar'(**.class)
+-injars 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\libs\sdk-v1.0.0.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\91a5bbebba25bd0af447f124f4912722aade09b0\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\e3d218a940ef2b473d24b4de21150177ce5e56aa\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\bd525cebb535c4185247f33976b86d54aa3e9149\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\6b703941fef402841c1be1a5600c262d0d68eaaf\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\c9769f673487b900818ad81f71fb73e4fbe1505a\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\ff94580ab7aca373b5943418776a654547748814\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\c6911effb4acdbec53237a89b43613d73fd4bcf6\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\21f0547d94b120dabf6460561d7e2ffa1cbe8ee9\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\fd2d9131867b93740be64d7460a67a8665da3411\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\29c2be8de462122f58fb7cc9ee4378374dc10b62\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.android\build-cache\41e992e22e5fab66a753faa359c7b3cdabcda4db\output\jars\classes.jar'(**.class)
+-injars 'C:\Users\TanzenT\.gradle\caches\modules-2\files-2.1\com.squareup\otto\1.3.7\69d90fd7fb70e54746e26c10454c220e40a775ce\otto-1.3.7.jar'(**.class)
+-injars 'C:\Users\TanzenT\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.1.0\64cb6b229a8bdfd907bc8dd46839a0053e4c018d\support-annotations-25.1.0.jar'(**.class)
+-injars 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\intermediates\classes\release'(**.class)
+-outjars 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\intermediates\transforms\proguard\release\jars\3\1f\main.jar'
 
--libraryjars 'C:\Users\HappyVirus\AppData\Local\Android\Sdk\platforms\android-24\android.jar'
--libraryjars 'C:\Users\HappyVirus\AppData\Local\Android\Sdk\platforms\android-24\optional\org.apache.http.legacy.jar'
+-libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-27\android.jar'
+-libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-27\optional\org.apache.http.legacy.jar'
 
 -forceprocessing
--printusage 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\usage.txt'
+-printusage 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\outputs\mapping\release\usage.txt'
 -dontoptimize
--printmapping 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\mapping.txt'
+-printmapping 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\outputs\mapping\release\mapping.txt'
 -dontusemixedcaseclassnames
 -keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,SourceFile,LineNumberTable,*Annotation*,*Annotation*
 -renamesourcefileattribute SourceFile
@@ -31,9 +31,9 @@
 -dontnote com.android.vending.licensing.ILicensingService,com.google.vending.licensing.ILicensingService,com.google.android.vending.licensing.ILicensingService,android.support.**
 -dontwarn android.support.**
 -ignorewarnings
--printconfiguration 'D:\AndroidStudio\MyPassword\app\config.txt'
--dump 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\dump.txt'
--printseeds 'D:\AndroidStudio\MyPassword\app\build\outputs\mapping\release\seeds.txt'
+-printconfiguration 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\config.txt'
+-dump 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\outputs\mapping\release\dump.txt'
+-printseeds 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\outputs\mapping\release\seeds.txt'
 
 
 -keep public class com.google.vending.licensing.ILicensingService
@@ -131,7 +131,7 @@
     *** get*();
 }
 
-# view res/layout/activity_main.xml #generated:6
+# view res/layout/activity_main.xml #generated:3
 -keep class android.support.v4.widget.DrawerLayout {
     <init>(...);
 }
@@ -243,73 +243,63 @@
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:150
+# view AndroidManifest.xml #generated:129
 -keep class com.gun0912.tedpermission.TedPermissionActivity {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:122
+# view AndroidManifest.xml #generated:118
 -keep class com.smileapps.mypassword.activity.AboutActivity {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:95
+# view AndroidManifest.xml #generated:91
 -keep class com.smileapps.mypassword.activity.EditPasswordActivity {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:68
+# view AndroidManifest.xml #generated:64
 -keep class com.smileapps.mypassword.activity.EntryActivity {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:54
+# view AndroidManifest.xml #generated:50
 -keep class com.smileapps.mypassword.activity.MainActivity {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:109
+# view AndroidManifest.xml #generated:105
 -keep class com.smileapps.mypassword.activity.SetLockpatternActivity {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:28
+# view AndroidManifest.xml #generated:24
 -keep class com.smileapps.mypassword.app.MyApplication {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:89
+# view AndroidManifest.xml #generated:85
 -keep class com.smileapps.mypassword.service.MainService {
     <init>(...);
 }
 
-# view AndroidManifest.xml #generated:140
--keep class com.smileapps.mypassword.service.noti.BootReceiver {
-    <init>(...);
-}
-
-# view AndroidManifest.xml #generated:135
--keep class com.smileapps.mypassword.service.noti.QuickAddService {
-    <init>(...);
-}
-
-# view res/layout/activity_entry.xml #generated:60
-# view res/layout/activity_set_lockpattern.xml #generated:25
+# view res/layout/activity_entry.xml #generated:57
+# view res/layout/activity_set_lockpattern.xml #generated:22
 -keep class com.smileapps.mypassword.view.LockPatternView {
     <init>(...);
 }
 
-# view res/layout/fragment_password_list.xml #generated:14
+# view res/layout/fragment_password_list.xml #generated:11
 -keep class com.twotoasters.jazzylistview.JazzyListView {
     <init>(...);
 }
 
-# onClick res/layout/activity_about.xml #generated:82
+# onClick res/layout/activity_about.xml #generated:79
 -keepclassmembers class * {
     *** onBlogClick(...);
 }
 
-# onClick res/layout/activity_about.xml #generated:114
+# onClick res/layout/activity_about.xml #generated:111
 -keepclassmembers class * {
     *** onFeedbackClick(...);
 }

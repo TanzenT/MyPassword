@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Create by 윤규도 on 2017. 11. 26.
-  ~ Copyright (C) 2017. 윤규도. All rights reserved.
-  -->
+
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"

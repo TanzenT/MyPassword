@@ -1,8 +1,3 @@
-/*
- * Create by 윤규도 on 2017. 11. 26.
- * Copyright (C) 2017. 윤규도. All rights reserved.
- */
-
 package com.smileapps.mypassword.activity;
 
 import android.Manifest;
@@ -46,7 +41,6 @@ import com.smileapps.mypassword.dialog.ImportDialog;
 import com.smileapps.mypassword.model.SettingKey;
 import com.smileapps.mypassword.service.MainService;
 import com.smileapps.mypassword.service.Mainbinder;
-import com.smileapps.mypassword.service.noti.QuickAddService;
 
 import cn.zdx.lib.annotation.FindViewById;
 
@@ -116,8 +110,6 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(null);
         setContentView(R.layout.activity_main);
-        Intent service_intent_qadd = new Intent(MainActivity.this, QuickAddService.class);
-        startService(service_intent_qadd);
         PermissionListener permissionlistener = new PermissionListener() {
             @Override
             public void onPermissionGranted() {
