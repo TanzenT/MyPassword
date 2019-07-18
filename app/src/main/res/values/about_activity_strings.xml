@@ -6,6 +6,6 @@
     <string name="about_author">FAQ</string>
     <string name="about_source">개발자 사이트</string>
     <string name="about_source_open_failed">웹브라우저가 열리지 않았습니다.</string>
-    <string name="about_author_mail">smileapps02@gmail.com</string>
+    <string name="about_author_mail">admin@tanzent.io</string>
     <string name="about_version">버전 정보</string>
 </resources>

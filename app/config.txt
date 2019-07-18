@@ -16,8 +16,11 @@
 -injars 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\intermediates\classes\release'(**.class)
 -outjars 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\intermediates\transforms\proguard\release\jars\3\1f\main.jar'
 
--libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-27\android.jar'
--libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-27\optional\org.apache.http.legacy.jar'
+-libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-28\android.jar'
+-libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-28\optional\org.apache.http.legacy.jar'
+-libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-28\optional\android.test.mock.jar'
+-libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-28\optional\android.test.base.jar'
+-libraryjars 'C:\Users\TanzenT\AppData\Local\Android\Sdk\platforms\android-28\optional\android.test.runner.jar'
 
 -forceprocessing
 -printusage 'C:\Users\TanzenT\Documents\GitHub\MyPassword\app\build\outputs\mapping\release\usage.txt'

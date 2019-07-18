@@ -9,13 +9,13 @@ android {
             storePassword 'smileboy02'
         }
     }
-    compileSdkVersion 27
-    buildToolsVersion '25.0.2'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.1'
     defaultConfig {
         applicationId "com.smileapps.mypassword"
         minSdkVersion 16
-        targetSdkVersion 27
-        versionCode 7
+        targetSdkVersion 28
+        versionCode 9
         versionName "1.1.0_release"
         signingConfig signingConfigs.signing_config
     }

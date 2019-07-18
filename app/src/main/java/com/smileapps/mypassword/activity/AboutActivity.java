@@ -24,7 +24,7 @@ import cn.zdx.lib.annotation.FindViewById;
 public class AboutActivity extends BaseActivity {
 
     /** 개발자 블로그 */
-    private static final String DEVELOPER_BLOG = "http://smileapps.ga";
+    private static final String DEVELOPER_BLOG = "https://blog.tanzent.io";
 
     /** 앱 버전 */
     @FindViewById(R.id.about_version)
